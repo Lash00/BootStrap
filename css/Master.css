@@ -1,0 +1,199 @@
+:root {
+    --Dark-blak: #19283f;
+    --Green-color: #33d1cc;
+    --white-color: white;
+    --yellow-color:#fdc400;
+    --red-color:#ff3150;
+    --opasity-green:#c9e4ee;
+}
+.m-con{position: sticky ; top: 0%; z-index: 100;}
+body {
+    font-family: "Roboto", sans-serif;
+}
+.container .Logo {
+    width: 85px;
+}
+.navbar{
+    background-color: var(--Dark-blak);
+}
+.navbar .container {
+    background-color: var(--Dark-blak);
+}
+.navbar-nav .nav-item .nav-link {
+    color: var(--white-color);
+}
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover {
+    color: var(--Green-color);
+}
+.fa-solid {
+    color: var(--white-color);
+}
+.list {
+    display: none;
+}
+.check {
+    display: none;
+
+}
+.check:checked~.list {
+    display: block;
+
+}
+.search {
+    border-left: 1px solid var(--Green-color);
+    height: 50%;
+}
+.search i {
+    color: var(--Green-color);
+}
+
+ .btn {
+    color: var(--yellow-color);
+    background-color: var(--red-color);
+    border: none;
+}
+.landing{
+    min-height: 60vh;
+    background-color: var(--Dark-blak);
+}
+.main-contener .fa-solid{
+color :var(--yellow-color);
+
+}
+.card{
+    width: 40vh;
+    border: none;
+    
+}
+.card  i{
+    color :var(--Green-color);
+}
+.main-contener::before{
+    content: "";
+    position: absolute;
+    width: 175px;
+    bottom: -8%;
+    transform: translateX(-50%);
+    left: 50%;
+    border-radius: 20%;
+    background-color: var(--Green-color);
+   z-index: 1   ;
+    padding: 1px;
+    
+}
+.icon{
+    height: 200px;
+}
+.icon .number{
+    font-size: 12rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.ico{
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cr2
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.service{
+    background-color:var(--opasity-green);  
+}
+/* start service  */
+.ul-list li{
+    padding: 0.5% 2%;
+    cursor: pointer;
+}
+.box {
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.ul-list .active,
+.ul-list li:hover{
+color: var(--yellow-color);
+background-color: var(--red-color);
+}
+
+/* end service  */
+/* start stuff */
+.sec-main-contener{
+    width: 50%;
+    height: 50%;
+}
+/* end stuff */
+/* start ream section */
+.team
+{
+    background-color: var(--opasity-green);
+}
+.boxs .box-team .name{
+    background-color: var(--Green-color);
+}
+.clud-text .main-text{
+    color: var(--yellow-color);
+}
+.box-team,
+ .imgteam
+{
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+/* end ream section */
+/* start Tech section */
+.projects{
+    background-color: var(--Dark-blak);
+}
+/* end  Tech section */
+/* start mail */
+.btm-mail{
+    background-color: var(--Dark-blak) !important;
+}
+.text-mail{
+    color: var(--Dark-blak);
+}
+.inpit-mail{
+    all: unset;
+    border-bottom: 0.45px solid white;
+    text-align: start;
+    color: white;
+}
+.inpit-mail::placeholder{
+    color:white;
+}
+
+.mail {
+    background-color: var(--yellow-color);
+}
+
+/* end mail */
+/* start footer  */
+.footer{
+    background-color: var(--Dark-blak);
+}
+.footerLogo .Logo{
+    width: 50%;
+    margin-top: -2rem;
+}
+.nameOfDev{
+    color: var(--Green-color);
+}
+.nosh{
+    color: var(--yellow-color);
+}
+.icons i{
+    width: 30px;
+    height: 30px;
+}
+.youtube{
+    width: 35px !important;
+
+}
+/* end  footer  */
